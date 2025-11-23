@@ -1,4 +1,4 @@
-FROM node:lts-bullseye-slim as base
+FROM node:16.20.2-bookworm as base
 
 LABEL "com.github.actions.name"="Vuepress deploy"
 LABEL "com.github.actions.description"="A GitHub Action to build and deploy Vuepress sites to GitHub Pages"
